@@ -20,7 +20,7 @@ class Counter {
     }
 
     update() {
-        this.v += this.va / 100; // divides by 100 because values are per seconds it runs every 0.01 seconds.
+        this.v += this.va / 1; // divides by 100 because values are per seconds it runs every 0.01 seconds.
     }
 
     setValue(v) {
