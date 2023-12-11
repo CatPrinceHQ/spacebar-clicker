@@ -90,8 +90,8 @@ let ITEMS = [
     },
     {
         name: "Chris",
-        description: "You ask Chris to help you. Instead of pressing the spacebar for you, he just hacks the game. Beep boop, now you gain <b>%vx per second</b>!",
-        cost: 10000000,
+        description: "You ask Chris to help you. Instead of pressing the spacebar for you, he just hacks the game! Beep boop, now you gain <b>%vx per second</b>!",
+        cost: 1,
         initial_value: 10000000,
         lvl: 0,
         cost_func: (x) => 1.4 * x,
