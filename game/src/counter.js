@@ -2,7 +2,7 @@ class Counter {
     constructor() {
         this.v = 0;
         this.va = 0;
-        this.multiplier = 1;
+        this.multiplier = 100;
 
         setInterval(this.update.bind(this), 10);
     }
