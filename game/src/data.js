@@ -10,7 +10,7 @@ let ITEMS = [
         getDescription: (it) => it.description.replace("%v", 1.0 / it.initial_value),
     },
     {
-        name: "Boomer Mom",
+        name: "Chris's Mom",
         description: "A boomer mom who can't barely open a Word document to help you press it. Every mom can press it <b>%vx a second</b>!",
         cost: 120,
         initial_value: 3,
@@ -91,8 +91,8 @@ let ITEMS = [
     {
         name: "Chris",
         description: "You ask Chris to help you. Instead of pressing the spacebar for you, he just hacks the game. Beep boop, now you gain <b>%vx per second</b>!",
-        cost: -10000000,
-        initial_value: -10000000,
+        cost: 10000000,
+        initial_value: 10000000,
         lvl: 0,
         cost_func: (x) => 1.4 * x,
         value_func: (x) => 1000 * x,
