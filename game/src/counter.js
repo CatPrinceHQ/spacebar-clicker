@@ -9,7 +9,7 @@ class Counter {
 
     evaluateItems() {
         this.va = 0;
-        this.multiplier = 1;
+        this.multiplier = 100;
         for (let i in ITEMS) {
             let it = ITEMS[i];
             if (it.multiplier != undefined)
