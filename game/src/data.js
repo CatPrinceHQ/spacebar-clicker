@@ -89,13 +89,13 @@ let ITEMS = [
         getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
     },
     {
-        name: "Alien Tech Key Pressing Machine",
-        description: "No one knows how it works except for the girl that created it. But the rate is pretty high at <b>%vx per second</b>!",
-        cost: 80000000,
-        initial_value: 1000000,
+        name: "Chris",
+        description: "You ask Chris to help you. Instead of pressing the spacebar for you, he just hacks the game. Beep boop, now you gain <b>%vx per second</b>!",
+        cost: -10000000,
+        initial_value: -10000000,
         lvl: 0,
         cost_func: (x) => 1.4 * x,
-        value_func: (x) => 1.3 * x,
+        value_func: (x) => 1000 * x,
         getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
     },
 ];
