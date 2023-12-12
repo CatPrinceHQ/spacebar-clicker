@@ -169,6 +169,16 @@ let ITEMS = [
         getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
     },
     {
+        name: "Lockpicks",
+        description: "Break into Chris's room. <b>%vx per second</b>!",
+        cost: 1e24,
+        initial_value: 0,
+        lvl: 0,
+        cost_func: (x) => 1.5 * x,
+        value_func: (x) => 1.3 * x,
+        getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
+    },
+    {
         name: "Chris",
         description: "You ask Chris to help you. Instead of pressing the spacebar for you, he just hacks the game! Beep boop, now you gain <b>%vx per second</b>!",
         cost: 1,
