@@ -40,7 +40,7 @@ let ITEMS = [
     },
     {
         name: "Chris's Dad When He Sees Bad Grades",
-        description: "Angry dad who is about to beat the living crap out of Chris. The more you get, the angrier he gets, because they can't stand competition. The next one will give <b>%vx per second</b>.",
+        description: "Angry dad who is about to beat the living crap out of Chris. The more you get, the angrier he gets, the faster he uses the belt. The next one will hit him <b>%vx per second</b>.",
         cost: 10000,
         initial_value: 150,
         lvl: 0,
@@ -79,8 +79,8 @@ let ITEMS = [
         getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
     },
     {
-        name: "Nuclear Blast Gun",
-        description: "No one knows how it works except for the girl that created it. But the rate is pretty high at <b>%vx per second</b>!",
+        name: "Sussy Blast Gun",
+        description: "No one knows how it works except for the guy that created it. But the rate is pretty high at <b>%vx per second</b>!",
         cost: 10000000,
         initial_value: 100000,
         lvl: 0,
