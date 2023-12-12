@@ -213,39 +213,39 @@ let LEVELS = [
     },
     {
         psvalue: 500,
-        rain: 12,
+        rain: 10,
     },
     {
         psvalue: 1000,
-        rain: 15,
+        rain: 10,
     },
     {
         psvalue: 5000,
-        rain: 17,
+        rain: 10,
     },
     {
         psvalue: 10000,
-        rain: 18,
+        rain: 10,
     },
     {
         psvalue: 50000,
-        rain: 19,
+        rain: 10,
     },
     {
-        psvalue: 100000,
-        rain: 20,
+        psvalue: 10000000000,
+        rain: 10,
     },
     {
-        psvalue: 300000,
-        rain: 21,
+        psvalue: 30000000000,
+        rain: 10,
     },
     {
-        psvalue: 800000,
-        rain: 22,
+        psvalue: 80000000000,
+        rain: 10,
     },
     {
-        psvalue: 1000000,
-        rain: 23,
+        psvalue: 100000000000,
+        rain: 10,
     },
 ];
 
