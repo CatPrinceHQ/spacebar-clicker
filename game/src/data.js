@@ -5,7 +5,7 @@ let ITEMS = [
         cost: 30,
         initial_value: .2,
         lvl: 0,
-        cost_func: (x) => 1.1 * x,
+        cost_func: (x) => 1.0 * x,
         value_func: (x) => 1.5 ** x,
         getDescription: (it) => it.description.replace("%v", 1.0 / it.initial_value),
     },
