@@ -151,7 +151,7 @@ let ITEMS = [
     {
         name: "legit just hire god himself",
         description: "dude its literally god <b>%vx per second</b>!",
-        cost: 1e21,
+        cost: 5e21,
         initial_value: 7e19,
         lvl: 0,
         cost_func: (x) => 1e307 * x,
