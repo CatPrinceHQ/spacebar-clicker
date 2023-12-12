@@ -151,8 +151,8 @@ let ITEMS = [
     {
         name: "legit just hire god himself",
         description: "dude its literally god <b>%vx per second</b>!",
-        cost: 1e20,
-        initial_value: 7e18,
+        cost: 1e21,
+        initial_value: 7e19,
         lvl: 0,
         cost_func: (x) => 1e307 * x,
         value_func: (x) => 0 * x,
@@ -161,11 +161,11 @@ let ITEMS = [
     {
         name: "Spacebarception",
         description: "Spacebars create spacebars which make more spacebars exponentially. <b>%vx per second</b>!",
-        cost: 6.9e21,
-        initial_value: 1.6e19,
+        cost: 6.9e22,
+        initial_value: 1.6e20,
         lvl: 0,
-        cost_func: (x) => 1.5 ^ x,
-        value_func: (x) => 1.3 ^ x,
+        cost_func: (x) => 1.5 * x,
+        value_func: (x) => 1.3 * x,
         getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
     },
     {
