@@ -91,7 +91,7 @@ let ITEMS = [
     {
         name: "Chris's Grandpa",
         description: "No one knows how he does it but he is like the most skilled person at everything for some reason so its cool <b>%vx per second</b>!",
-        cost: 700000000,
+        cost: 2100000000,
         initial_value: 1696969,
         lvl: 0,
         cost_func: (x) => 2.2 * x,
@@ -101,7 +101,7 @@ let ITEMS = [
     {
         name: "A spooky cemetery",
         description: "get the ghosts to click to for you too! We're making it out of heaven with this one! <b>%vx per second</b>!",
-        cost: 6900000000,
+        cost: 20700000000,
         initial_value: 69696969,
         lvl: 0,
         cost_func: (x) => 1.3 * x,
@@ -111,7 +111,7 @@ let ITEMS = [
     {
         name: "Satan",
         description: "The devil loves the spacebar so much he's going to spam it for eternity! <b>%vx per second</b>!",
-        cost: 8000000000,
+        cost: 24000000000,
         initial_value: 6666666666,
         lvl: 0,
         cost_func: (x) => 1e307 * x,
@@ -121,7 +121,7 @@ let ITEMS = [
     {
         name: "Useless Mass Gmails",
         description: "Make everyone mad so that they spam their keyboard and hit the spacebar! <b>%vx per second</b>!",
-        cost: 1.33e13,
+        cost: 3.99e13,
         initial_value: 7.77e10,
         lvl: 0,
         cost_func: (x) => 3 * x,
@@ -131,7 +131,7 @@ let ITEMS = [
     {
         name: "Godzilla",
         description: "Godzilla rises from the depths of the ocean to spam a giant spacebar 100x bigger than a normal one! <b>%vx per second</b>!",
-        cost: 7.11e16,
+        cost: 2.133e17,
         initial_value: 7.77e14,
         lvl: 0,
         cost_func: (x) => 1e307 * x,
@@ -141,7 +141,7 @@ let ITEMS = [
     {
         name: "Go Back in Time",
         description: "Going back in time allows you to buy this upgrade for it's original price over and over but it also keeps its original value so u just gotta spam it ig idk <b>%vx per second</b>!",
-        cost: 1e18,
+        cost: 3e18,
         initial_value: 1e16,
         lvl: 0,
         cost_func: (x) => 1 * x,
@@ -151,7 +151,7 @@ let ITEMS = [
     {
         name: "legit just hire god himself",
         description: "dude its literally god <b>%vx per second</b>!",
-        cost: 5e21,
+        cost: 3e22,
         initial_value: 7e19,
         lvl: 0,
         cost_func: (x) => 1e307 * x,
@@ -161,7 +161,7 @@ let ITEMS = [
     {
         name: "Spacebarception",
         description: "Spacebars create spacebars which make more spacebars exponentially. <b>%vx per second</b>!",
-        cost: 6.9e22,
+        cost: 3.69e23,
         initial_value: 1.6e20,
         lvl: 0,
         cost_func: (x) => 1.5 * x,
@@ -171,7 +171,7 @@ let ITEMS = [
     {
         name: "Lockpicks",
         description: "Break into Chris's room. <b>%vx per second</b>!",
-        cost: 1e24,
+        cost: 5e24,
         initial_value: 0,
         lvl: 0,
         cost_func: (x) => 1.5 * x,
