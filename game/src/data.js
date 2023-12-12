@@ -92,7 +92,7 @@ let ITEMS = [
         name: "Chris's Grandpa",
         description: "No one knows how he does it but he is like the most skilled person at everything for some reason so its cool <b>%vx per second</b>!",
         cost: 700000000,
-        initial_value: 696969,
+        initial_value: 1696969,
         lvl: 0,
         cost_func: (x) => 2.2 * x,
         value_func: (x) => 1.7 * x,
