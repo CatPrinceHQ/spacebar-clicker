@@ -105,7 +105,7 @@ let ITEMS = [
         initial_value: 69696969,
         lvl: 0,
         cost_func: (x) => 1.3 * x,
-        value_func: (x) => 1.2 * x,
+        value_func: (x) => 1.25 * x,
         getDescription: (it) => it.description.replace("%v", nfmt(it.value)),
     },
     {
