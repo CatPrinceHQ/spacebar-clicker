@@ -35,7 +35,7 @@ let ITEMS = [
         cost: 6000,
         multiplier: 2,
         lvl: 0,
-        cost_func: (x) => 3.5 * x,
+        cost_func: (x) => 2.33333 * x,
         getDescription: (it) => it.description,
     },
     {
