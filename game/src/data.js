@@ -122,7 +122,7 @@ let ITEMS = [
         name: "Useless Mass Gmails",
         description: "Make everyone mad so that they spam their keyboard and hit the spacebar! <b>%vx per second</b>!",
         cost: 3.99e13,
-        initial_value: 7.77e10,
+        initial_value: 2.77e11,
         lvl: 0,
         cost_func: (x) => 3 * x,
         value_func: (x) => 2.5 * x,
